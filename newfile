@@ -158,6 +158,18 @@ public class AutoType {
 			r.keyPress(KeyEvent.VK_O);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_N);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_SPACE);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_ENTER);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_ENTER);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_QUOTE);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_1);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_QUOTE);
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
