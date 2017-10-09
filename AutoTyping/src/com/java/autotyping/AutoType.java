@@ -29,11 +29,11 @@ public class AutoType {
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_SPACE);
 			Thread.sleep(500);
-			r.keyPress(KeyEvent.VK_F);
+			r.keyPress(KeyEvent.VK_C);
 			Thread.sleep(500);
-			r.keyPress(KeyEvent.VK_U);
+			r.keyPress(KeyEvent.VK_A);
 			Thread.sleep(500);
-			r.keyPress(KeyEvent.VK_N);
+			r.keyPress(KeyEvent.VK_T);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
