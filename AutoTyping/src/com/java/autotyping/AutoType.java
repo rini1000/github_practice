@@ -124,6 +124,16 @@ public class AutoType {
 			r.keyPress(KeyEvent.VK_TAB);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_C);
+			
+			//Thread.sleep(500);
+			//r.keyPress(KeyEvent.VK_LEFT);
+			//Thread.sleep(500);
+		//	r.keyPress(KeyEvent.VK_COPY);
+			//Thread.sleep(500);
+			//r.keyPress(KeyEvent.VK_PASTE);
+			//Thread.sleep(500);
+			//r.keyPress(KeyEvent.VK_PASTE);
+			
 			Thread.sleep(500);	
 			r.keyPress(KeyEvent.VK_INPUT_METHOD_ON_OFF);
 			Thread.sleep(500);	
@@ -136,7 +146,22 @@ public class AutoType {
 			r.keyPress(KeyEvent.VK_A);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_QUOTE);
-		
+			Thread.sleep(500);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_LEFT);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_LEFT);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_LEFT);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_LEFT);
+			r.keyPress(KeyEvent.VK_DELETE);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_DELETE);			
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_DELETE);
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_DELETE);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
