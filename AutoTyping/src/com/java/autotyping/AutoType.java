@@ -93,7 +93,9 @@ public class AutoType {
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_O);
 			Thread.sleep(500);
-			r.keyPress(KeyEvent.VK_R);
+			r.keyPress(KeyEvent.VK_R);			
+			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_CAPS_LOCK);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_SPACE);
 			Thread.sleep(500);
@@ -122,14 +124,19 @@ public class AutoType {
 			r.keyPress(KeyEvent.VK_TAB);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_C);
-			Thread.sleep(500);
+			Thread.sleep(500);	
+			r.keyPress(KeyEvent.VK_INPUT_METHOD_ON_OFF);
+			Thread.sleep(500);	
 			r.keyPress(KeyEvent.VK_ENTER);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_QUOTE);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_1);
 			Thread.sleep(500);
+			r.keyPress(KeyEvent.VK_A);
+			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_QUOTE);
+		
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
