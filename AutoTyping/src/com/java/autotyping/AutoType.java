@@ -6,6 +6,8 @@ import java.awt.Robot;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
 
+import javafx.scene.input.KeyCode;
+
 public class AutoType {
 	public static void main(String[] args) {
 
@@ -124,6 +126,7 @@ public class AutoType {
 			r.keyPress(KeyEvent.VK_TAB);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_C);
+			Thread.sleep(500);
 			
 			//Thread.sleep(500);
 			//r.keyPress(KeyEvent.VK_LEFT);
@@ -155,6 +158,7 @@ public class AutoType {
 			r.keyPress(KeyEvent.VK_LEFT);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_LEFT);
+			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_DELETE);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_DELETE);			
