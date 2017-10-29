@@ -144,7 +144,7 @@ public class AutoType {
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_QUOTE);
 			Thread.sleep(500);
-			r.keyPress(KeyEvent.VK_2);
+			r.keyPress(KeyEvent.VK_1);
 			Thread.sleep(500);
 			r.keyPress(KeyEvent.VK_B);
 			Thread.sleep(500);
